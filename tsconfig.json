@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist",
+        "allowJs": true, // Разрешить использование JS-файлов в проекте
+        "rootDir": "./src", // Указывает корневую папку ваших исходников
+        "typeRoots": [
+            "./node_modules/@types"
+        ] ,// Указывает, где искать типы
+            "jsx": "preserve",
+    },
+    "include": [
+        "src/**/*"
+
+    ], // Включает все файлы из папки src
+    "exclude": [
+        "node_modules"
+    ]
+}
